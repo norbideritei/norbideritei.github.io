@@ -15,7 +15,7 @@ var skillsEl = document.getElementById("skills-list");
 // skillsEl.innerHTML += '<li class="favorite" > CSS</li>';
 // skillsEl.innerHTML += "<li>JS</li>";
 
-var skills = ["HTML", "CSS", "JS","Drive"];
+var skills = ["HTML", "CSS", "JS","Git"];
 
 // skillsEl.innerHTML += "<li>" + skills[0] + "</li>";
 // skillsEl.innerHTML += "<li>" + skills[1] + "</li>";

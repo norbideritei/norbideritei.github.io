@@ -27,14 +27,11 @@ body {
 }
 
 td {
-    color: darkblue;
-    border-color: aquamarine;
+    color: black;
+    border-color: black;
+    padding-left: 5px;
 }
 
-#job-title {
-    text-align: center;
-    color: #6829dd;
-}
 
 .favorite {
     font-weight: bold;
@@ -52,7 +49,7 @@ td {
 
 #top-menu-bar {
     text-align: center;
-    background-color: #334455;
+    background-color: rgba(96,197,225,255);
     color: #fff;
     margin: 0;
 }
@@ -74,4 +71,27 @@ td {
     color: #334455;
     background-color: #fff;
     border-radius: 0.3em;
+
+}
+
+#head-fix {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#dev-title {
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#dev-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding-left: 30px;
+}
+
+#language-table {
+    border-radius: 5%;
+    font-weight: bold;
 }
