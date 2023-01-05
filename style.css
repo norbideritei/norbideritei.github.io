@@ -1,98 +1,93 @@
-
 html {
-    height: 100%;
+  height: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-
 body {
-    margin: 0;
-    min-height: 100%;
-    background-color: #f3f2ef;
-    display: flex;
-    flex-direction: column;
+  margin: 0;
+  min-height: 100%;
+  background-color: #f3f2ef;
+  display: flex;
+  flex-direction: column;
 }
 
 #content {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
 }
 
 #side-menu {
-    flex: 1;
+  flex: 1;
 }
 
 #main {
-    flex: 2;
+  flex: 2;
 }
 
 td {
-    color: black;
-    border-color: black;
-    padding-left: 5px;
+  color: black;
+  border-color: black;
+  padding-left: 5px;
 }
 
-
 .favorite {
-    font-weight: bold;
-    color: blue;
+  font-weight: bold;
+  color: blue;
 }
 
 .page {
-    border: 2px solid #e0dfdc;
-    background-color: #fff;
-    padding: 0 10px 0 10px;
-    margin-bottom: 10px;
-    border-radius: 0.8rem;
-    display: none;
-
+  border: 2px solid #e0dfdc;
+  background-color: #fff;
+  padding: 0 10px 0 10px;
+  margin-bottom: 10px;
+  border-radius: 0.8rem;
+  display: none;
 }
 
 #top-menu-bar {
-    text-align: center;
-    background-color: rgba(96,197,225,255);
-    color: #fff;
-    margin: 0;
+  text-align: center;
+  background-color: rgba(96, 197, 225, 255);
+  color: #fff;
+  margin: 0;
 }
 
 #top-menu-bar li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 #top-menu-bar a {
-    text-decoration: none;
-    display: inline-block;
-    color: #fff;
-    padding: 5px 8px;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  padding: 5px 8px;
 }
 
 #top-menu-bar a:hover {
-    color: #334455;
-    background-color: #fff;
-    border-radius: 0.3em;
-
+  color: #334455;
+  background-color: #fff;
+  border-radius: 0.3em;
 }
 
 #head-fix {
-    padding-left: 5px;
-    padding-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #dev-title {
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
 }
 
 #dev-image {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    padding-left: 30px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding-left: 30px;
 }
 
 #language-table {
-    border-radius: 5%;
-    font-weight: bold;
+  border-radius: 5%;
+  font-weight: bold;
 }
