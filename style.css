@@ -71,20 +71,27 @@ td {
   border-radius: 0.3em;
 }
 
-#head-fix {
+#header-wrapper {
   padding-left: 5px;
   padding-right: 5px;
+  display: flex;
+  flex-direction: row;
 }
 
+#header-wrapper h1 {
+  padding-left: 10px;
+  padding-top: 25px;
+}
 #dev-title {
   font-style: italic;
+  font-size: 25px;
 }
 
 #dev-image {
-  width: 120px;
-  height: 120px;
   border-radius: 50%;
-  padding-left: 30px;
+  width: 100px;
+  height: 100px;
+  border: 5px solid #057988;
 }
 
 #language-table {
