@@ -73,18 +73,20 @@ td {
 
 #header-wrapper {
   padding-left: 5px;
+  padding-top: 5px;
   padding-right: 5px;
   display: flex;
+  align-items: center;
   flex-direction: row;
 }
 
 #header-wrapper h1 {
-  padding-left: 10px;
-  padding-top: 25px;
+  padding-left: 5px;
 }
+
 #dev-title {
   font-style: italic;
-  font-size: 25px;
+  font-size: 23px;
 }
 
 #dev-image {
