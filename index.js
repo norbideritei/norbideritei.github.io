@@ -8,9 +8,9 @@ r1.then((raspuns) => {
 });
 
 function displaySkills(skills) {
-  const skillsHTML = skills.map((skill) => {
-    return `<li>${skill.name} - <span>${skill.endorcements}</span></li>`;
-  });
+  const skillsHTML = skills.map(
+    (skill) => `<li>${skill.name} - <span>${skill.endorcements}</span></li>`
+  );
   const skillsEl = document.getElementById("skills-list");
 
   skillsEl.innerHTML = skillsHTML.join("");
@@ -47,11 +47,3 @@ function initMenu() {
 
 displayPage("skills");
 initMenu();
-
-const f1 = function () {
-  return "arrow";
-};
-
-const f2 = () => {
-  return "arrow";
-};
